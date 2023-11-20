@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Entities.Entidades
 {
     [Table("Categoria")]
-    public class Categorias : Base
+    public class Categoria : Base
     {
         [ForeignKey("SistemaFinanceiro")]
         [Column(Order = 1)]
